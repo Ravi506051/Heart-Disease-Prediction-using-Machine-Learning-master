@@ -55,3 +55,9 @@ Record the actual evaluation results from your notebook before reporting any per
 ## ⚠️ Medical Disclaimer
 
 This project is intended for educational and research purposes only. It is not a medical diagnostic tool and must not be used to diagnose disease or make treatment decisions. Always consult a qualified healthcare professional for medical advice.
+
+## Evaluation and Responsible Use
+
+For a fair comparison, evaluate all classifiers on the same held-out data and report sensitivity/recall, specificity where calculated, precision, F1-score, and the confusion matrix in addition to accuracy. Check for data leakage and document the split strategy before reporting results.
+
+This repository is an educational machine-learning exercise. Its predictions must not be used to diagnose, rule out, or guide treatment for heart disease. Medical decisions require qualified healthcare professionals and appropriate clinical tests.
