@@ -67,3 +67,9 @@ This repository is an educational machine-learning exercise. Its predictions mus
 Use consistent held-out evaluation and report sensitivity, specificity, precision, recall, and calibration where available. This educational model is not for clinical decisions.
 
 For reproducible updates, record the dataset/source version, environment and dependency versions, preprocessing choices, and actual outputs from each run. Keep sample values clearly labelled and do not publish secrets or private data.
+
+### Technical Deep Dive
+
+This is a binary classification workflow, so compare models on identical held-out data and report sensitivity/recall, specificity, precision, F1-score, and the confusion matrix—not accuracy alone. Any feature scaling or selection must be fitted only on training folds. Check for duplicated records and target leakage before interpreting the reported score.
+
+This notebook is for learning and research only. Its predictions are not a diagnosis, screening recommendation, or substitute for a clinician's assessment.
