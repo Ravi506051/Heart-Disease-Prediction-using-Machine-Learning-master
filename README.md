@@ -61,3 +61,9 @@ This project is intended for educational and research purposes only. It is not a
 For a fair comparison, evaluate all classifiers on the same held-out data and report sensitivity/recall, specificity where calculated, precision, F1-score, and the confusion matrix in addition to accuracy. Check for data leakage and document the split strategy before reporting results.
 
 This repository is an educational machine-learning exercise. Its predictions must not be used to diagnose, rule out, or guide treatment for heart disease. Medical decisions require qualified healthcare professionals and appropriate clinical tests.
+
+## Project Development Notes
+
+Use consistent held-out evaluation and report sensitivity, specificity, precision, recall, and calibration where available. This educational model is not for clinical decisions.
+
+For reproducible updates, record the dataset/source version, environment and dependency versions, preprocessing choices, and actual outputs from each run. Keep sample values clearly labelled and do not publish secrets or private data.
