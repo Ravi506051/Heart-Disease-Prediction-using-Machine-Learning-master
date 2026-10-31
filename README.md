@@ -73,3 +73,11 @@ For reproducible updates, record the dataset/source version, environment and dep
 This is a binary classification workflow, so compare models on identical held-out data and report sensitivity/recall, specificity, precision, F1-score, and the confusion matrix—not accuracy alone. Any feature scaling or selection must be fitted only on training folds. Check for duplicated records and target leakage before interpreting the reported score.
 
 This notebook is for learning and research only. Its predictions are not a diagnosis, screening recommendation, or substitute for a clinician's assessment.
+
+## Evaluation, Safety, and Reproducibility
+
+- Evaluate with sensitivity/recall, specificity, precision, F1-score, ROC-AUC, and a confusion matrix; accuracy alone can hide clinically important errors.
+- Use a held-out test set and avoid data leakage during preprocessing and feature selection.
+- Record dataset provenance, split strategy, random seed, model configuration, and actual measured results.
+- Inspect calibration and false-negative cases, and clearly communicate uncertainty.
+- This is an educational machine-learning experiment, not a diagnostic device or a substitute for qualified medical advice.
