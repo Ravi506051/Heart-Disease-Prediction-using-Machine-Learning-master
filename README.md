@@ -81,3 +81,11 @@ This notebook is for learning and research only. Its predictions are not a diagn
 - Record dataset provenance, split strategy, random seed, model configuration, and actual measured results.
 - Inspect calibration and false-negative cases, and clearly communicate uncertainty.
 - This is an educational machine-learning experiment, not a diagnostic device or a substitute for qualified medical advice.
+
+## Model Evaluation and Responsible Use
+
+- Use a stratified split and cross-validation to assess model stability across classes.
+- Report sensitivity/recall, specificity, precision, F1-score, and confusion-matrix counts alongside accuracy.
+- Check for data leakage and document how missing values and categorical variables are handled.
+- Review feature importance carefully; association in a dataset does not establish medical causation.
+- This project is for educational analysis only and must not be used to diagnose, screen, or guide treatment decisions.
