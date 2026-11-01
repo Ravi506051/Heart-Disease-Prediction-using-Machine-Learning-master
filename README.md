@@ -89,3 +89,10 @@ This notebook is for learning and research only. Its predictions are not a diagn
 - Check for data leakage and document how missing values and categorical variables are handled.
 - Review feature importance carefully; association in a dataset does not establish medical causation.
 - This project is for educational analysis only and must not be used to diagnose, screen, or guide treatment decisions.
+
+## Additional Validation and Responsible Use
+
+- Use stratified evaluation and report sensitivity/recall, specificity, precision, F1-score, and the confusion matrix rather than accuracy alone.
+- Check for data leakage and compare all algorithms on identical splits or cross-validation folds.
+- Document dataset provenance, feature definitions, and limitations of the sample population.
+- This is an educational machine-learning exercise only; predictions must not be used for diagnosis, treatment, or clinical decisions.
