@@ -31,3 +31,15 @@ This is an educational machine-learning project, not a medical diagnostic system
 
 ## Maintainer
 **Ravi Kumar Rao** · [GitHub](https://github.com/Ravi506051)
+
+## Skills Demonstrated
+
+- Binary classification
+- feature preparation
+- model comparison
+- classification metrics
+- responsible interpretation of predictive outputs.
+
+## Portfolio Context
+
+This project is part of my hands-on learning portfolio. The repository documents the workflow and implementation; results should be reproduced from the included code and data before being used in reports or professional claims.
