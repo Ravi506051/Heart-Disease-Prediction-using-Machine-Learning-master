@@ -2,44 +2,32 @@
 
 A binary-classification project exploring machine-learning methods for analysing structured heart-disease data.
 
-## Models explored
-The existing project documentation describes experiments with Logistic Regression, Naive Bayes, Support Vector Machines, K-Nearest Neighbours, Decision Trees, Random Forest, XGBoost and a small neural network.
+## Models Explored
+The project documentation describes experiments with Logistic Regression, Naive Bayes, Support Vector Machines, K-Nearest Neighbours, Decision Trees, Random Forest, XGBoost, and a small neural network.
 
 ## Workflow
 1. Load and inspect the dataset.
-2. Clean data and prepare model features.
+2. Clean the data and prepare model features.
 3. Split data into training and test sets.
 4. Train and compare classification algorithms.
-5. Evaluate with precision, recall, F1-score, ROC-AUC and a confusion matrix.
+5. Evaluate with precision, recall, F1-score, ROC-AUC, and a confusion matrix.
 6. Review errors and document model limitations.
 
 ## Technology
 Python · Pandas · NumPy · Scikit-learn · Keras · Jupyter Notebook
 
-## Dataset
-The original project documentation references the UCI Heart Disease dataset distributed through Kaggle. Check the dataset's terms and source before reuse.
-
-## Getting started
+## Getting Started
 ```bash
 git clone https://github.com/Ravi506051/Heart-Disease-Prediction-using-Machine-Learning-master.git
 cd Heart-Disease-Prediction-using-Machine-Learning-master
 ```
 Open the notebook in Jupyter or Google Colab and install the libraries imported by the notebook.
 
-## Important limitation
-This is an educational machine-learning project, not a medical diagnostic system. Predictions must not be used to diagnose, treat or make clinical decisions. The previously documented performance figure should be independently reproduced on a clearly defined test set before being quoted.
+## Evaluation and Responsible Use
+Use a clearly separated test set and check for data leakage before reporting metrics. For imbalanced data, inspect class-wise precision and recall rather than relying on accuracy alone. This is an educational project, not a medical diagnostic system; its predictions must not guide clinical decisions. Reproduce any performance figure on a documented test split before quoting it.
+
+## Future Improvements
+Add cross-validation, calibration analysis, explainability, and a model card describing dataset provenance and intended use.
 
 ## Maintainer
 **Ravi Kumar Rao** · [GitHub](https://github.com/Ravi506051)
-
-## Skills Demonstrated
-
-- Binary classification
-- feature preparation
-- model comparison
-- classification metrics
-- responsible interpretation of predictive outputs.
-
-## Portfolio Context
-
-This project is part of my hands-on learning portfolio. The repository documents the workflow and implementation; results should be reproduced from the included code and data before being used in reports or professional claims.
