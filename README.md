@@ -31,3 +31,10 @@ Add cross-validation, calibration analysis, explainability, and a model card des
 
 ## Maintainer
 **Ravi Kumar Rao** · [GitHub](https://github.com/Ravi506051)
+
+## Model Evaluation and Responsible Use
+
+- Compare candidate models using sensitivity/recall, specificity, precision, F1-score, and ROC-AUC where appropriate.
+- Use stratified validation and inspect class imbalance and possible data leakage.
+- Report confidence and limitations rather than presenting a prediction as a diagnosis.
+- This is an educational machine-learning project and must not replace assessment by a qualified healthcare professional.
