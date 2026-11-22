@@ -32,9 +32,8 @@ Add cross-validation, calibration analysis, explainability, and a model card des
 ## Maintainer
 **Ravi Kumar Rao** · [GitHub](https://github.com/Ravi506051)
 
-## Model Evaluation and Responsible Use
+## Reproduce the notebook
 
-- Compare candidate models using sensitivity/recall, specificity, precision, F1-score, and ROC-AUC where appropriate.
-- Use stratified validation and inspect class imbalance and possible data leakage.
-- Report confidence and limitations rather than presenting a prediction as a diagnosis.
-- This is an educational machine-learning project and must not replace assessment by a qualified healthcare professional.
+The repository contains `Heart_disease_prediction.ipynb` and `heart.csv`. Open the notebook in Jupyter or Google Colab from this folder so its relative `pd.read_csv("heart.csv")` path resolves. It compares Logistic Regression, Naive Bayes, linear SVM, KNN, Decision Tree, Random Forest, XGBoost, and a small Keras neural network.
+
+Install the libraries imported by the notebook if they are not already available. Compare models on the same documented split, and do not treat accuracy from this small dataset as evidence of clinical performance. This project is educational and is not a diagnostic tool.
